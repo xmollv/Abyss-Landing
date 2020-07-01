@@ -27,6 +27,38 @@ p {
 	line-height: 32px;
 }
 
+footer {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background: rgb(250, 250, 250);
+}
+
+footer > ul {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+}
+
+footer > ul > li {
+	display: inline;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(64, 134, 191);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(64, 134, 191);
+}
+
 #app_icon_image {
 	background-color: rgb(127,127,127);
 	width: 100px;
@@ -40,6 +72,14 @@ p {
 	width: 100%;
 	padding-top: 50%;
 	position: relative;	
+}
+
+#app_store_baner {
+	background-color: rgb(127,127,127);
+	width: 120px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 @media only screen and (max-width: 1068px) {
