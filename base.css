@@ -4,6 +4,10 @@ html {
 	text-align: center;
 }
 
+body {
+	margin: 0px;
+}
+
 main {
 	padding: 20px;
 }
@@ -34,6 +38,7 @@ footer {
 }
 
 footer > ul {
+	padding: 0px;
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
