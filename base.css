@@ -71,8 +71,7 @@ a:visited {
 	position: relative;	
 }
 
-#app_store_baner {
-	background-color: rgb(127,127,127);
+#app_store_badge {
 	width: 120px;
 	height: 40px;
 	margin-left: auto;
