@@ -60,9 +60,8 @@ a:visited {
 }
 
 #app_icon_image {
-	background-color: rgb(127,127,127);
-	width: 100px;
-	height: 100px;
+	width: 128px;
+	height: 128px;
 	margin-left: auto;
 	margin-right: auto;
 }
