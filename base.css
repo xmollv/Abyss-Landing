@@ -27,6 +27,21 @@ p {
 	line-height: 32px;
 }
 
+#app_icon_image {
+	background-color: rgb(127,127,127);
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_image {
+	background-color: rgb(127,127,127);
+	width: 100%;
+	padding-top: 50%;
+	position: relative;	
+}
+
 @media only screen and (max-width: 1068px) {
     h1 {
         max-width:600px;
