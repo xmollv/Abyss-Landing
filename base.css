@@ -67,9 +67,7 @@ a:visited {
 }
 
 #main_image {
-	background-color: rgb(127,127,127);
 	width: 100%;
-	padding-top: 50%;
 	position: relative;	
 }
 
