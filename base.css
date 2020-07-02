@@ -8,18 +8,27 @@ body {
 	margin: 0px;
 }
 
-main {
-	padding: 20px;
-}
-
 h1 {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	color: rgb(17, 17, 17);
 	font-size: 60px;
+}
+
+h2 {
+	font-size: 50px;	
+}
+
+h4 {
+	font-size: 40px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+h1, h2, h3, h4 {
+	color: rgb(17, 17, 17);
+	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 600;
-	font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 p {
@@ -31,10 +40,13 @@ p {
 	line-height: 32px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 footer {
 	padding-top: 48px;
 	padding-bottom: 48px;
-	background: rgb(250, 250, 250);
 }
 
 footer > ul {
@@ -42,7 +54,6 @@ footer > ul {
 	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	list-style-type: none;
 }
 
 footer > ul > li {
@@ -71,6 +82,11 @@ a:visited {
 	margin-right: auto;
 }
 
+#main_description {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 #main_image {
 	width: 100%;
 	position: relative;	
@@ -83,10 +99,29 @@ a:visited {
 	margin-right: auto;	
 }
 
+#features_container {
+	padding-top: 8px;
+	padding-bottom: 16px;
+	background: rgb(250, 250, 250);
+}
+
+#grid_wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+  	grid-gap: 64px;
+  	grid-template-columns: repeat(2, 1fr);
+}
+
 @media only screen and (max-width: 1068px) {
     h1 {
         max-width:600px;
         font-size: 50px;
+    }
+
+    h4 {
+    	font-size: 35px;	
     }
 
     p {
@@ -100,7 +135,16 @@ a:visited {
         font-size: 40px;
     }
 
+    h4 {
+    	font-size: 30px;	
+    }
+
     p {
     	font-size: 21px;
     }
+
+    #grid_wrapper {
+	  	grid-template-columns: repeat(1, 1fr);
+	}
+
 }
